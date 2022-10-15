@@ -27,7 +27,7 @@ extension RepeatAlarmViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "repeatCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Constants.Identifiers.Cell.standardCell, for: indexPath)
         
         let currentDay = days[indexPath.row]
         cell.textLabel?.text = currentDay
@@ -42,7 +42,7 @@ extension RepeatAlarmViewController {
     private func setupTableView() {
         //        repeatAlarmTableView.delegate = self
         repeatAlarmTableView.dataSource = self
-        repeatAlarmTableView.register(UITableViewCell.self, forCellReuseIdentifier: "repeatCell")
+        repeatAlarmTableView.register(UITableViewCell.self, forCellReuseIdentifier: Constants.Identifiers.Cell.standardCell)
     }
     
 }
