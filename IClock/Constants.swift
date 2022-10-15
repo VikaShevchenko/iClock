@@ -26,6 +26,8 @@ struct Constants {
             static let alarm = "AlarmTableViewCell"
             static let alarmSoundSetting = "AlarmSoundSettingTableViewCell"
             static let alarmSoundSettingSwitch = "AlarmSoundSettingSwitchTableViewCell"
+            static let standardCell = "StandardCell"
+            
         }
         
         struct Storyboards {
