@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sleep Settings Preview View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SleepSettingsPreviewViewController" id="Y6W-OH-hqX" customClass="SleepSettingsPreviewViewController" customModule="IClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bed.double.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MI8-KZ-zRM">
+                                <rect key="frame" x="157" y="123" width="100" height="96.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PS5-Cj-7me"/>
+                                    <constraint firstAttribute="width" constant="100" id="myk-B6-ak9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ll0-O7-710">
+                                <rect key="frame" x="24" y="782" width="366" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="dPT-Qu-JgV"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.62352943419999995" blue="0.039215687659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="showSleepSettingScreen:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="X9z-qP-ngf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сон тепер у програмі &quot;Здоров`я&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzL-Ca-SQ9">
+                                <rect key="frame" x="24" y="255.5" width="366" height="143.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="k08-IC-l8T">
+                                <rect key="frame" x="24" y="448" width="366" height="92"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Можна змінити сигнал у Годиннику, коли налаштуєте новий розклад сну. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeg-de-zuH">
+                                        <rect key="frame" x="16.5" y="0.0" width="333.5" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Можна також установити ціль для сну, створити розклад відпочинку тощо." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-Xl-NdA">
+                                        <rect key="frame" x="27" y="51" width="312" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" red="0.1749376751" green="0.76692434070000004" blue="0.71992413470000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="MI8-KZ-zRM" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="33.5" id="2vq-yr-rXE"/>
+                            <constraint firstItem="rzL-Ca-SQ9" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9YW-Q9-iKn"/>
+                            <constraint firstAttribute="trailing" secondItem="rzL-Ca-SQ9" secondAttribute="trailing" constant="24" id="DZb-Rt-cq7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ll0-O7-710" secondAttribute="bottom" constant="20" id="DjL-Rc-Wk8"/>
+                            <constraint firstItem="rzL-Ca-SQ9" firstAttribute="top" secondItem="MI8-KZ-zRM" secondAttribute="bottom" constant="34" id="KJ3-r9-Tdn"/>
+                            <constraint firstItem="Ll0-O7-710" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="RL6-gh-e1x"/>
+                            <constraint firstItem="Ll0-O7-710" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="Z2X-Uk-kqX"/>
+                            <constraint firstItem="MI8-KZ-zRM" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="f06-Cl-sUp"/>
+                            <constraint firstItem="k08-IC-l8T" firstAttribute="top" secondItem="rzL-Ca-SQ9" secondAttribute="bottom" constant="49" id="gZX-zf-A1j"/>
+                            <constraint firstAttribute="trailing" secondItem="k08-IC-l8T" secondAttribute="trailing" constant="24" id="h5O-m9-Yha"/>
+                            <constraint firstItem="k08-IC-l8T" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="sGu-Fu-qVK"/>
+                            <constraint firstItem="rzL-Ca-SQ9" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="24" id="u0B-ye-TCu"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ll0-O7-710" secondAttribute="trailing" constant="24" id="xdk-lD-aMO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uUp-xh-if5">
+                        <barButtonItem key="leftBarButtonItem" title="Скасувати" id="wg9-Zf-rHL">
+                            <connections>
+                                <action selector="cancel:" destination="Y6W-OH-hqX" id="0N9-tO-gvW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cK5-GE-ZC8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ahg-CL-gKh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Ud-Jd-yin">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="hzV-3D-d0D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fao-Yg-GEo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bed.double.fill" catalog="system" width="128" height="82"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

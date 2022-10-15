@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631EAECE28F459D9004BAFCF /* SoundSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EAECD28F459D9004BAFCF /* SoundSettingsViewController.swift */; };
+		631EAED128F709B5004BAFCF /* ShieldA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 631EAED028F709B5004BAFCF /* ShieldA.wav */; };
+		631EAED328F70E55004BAFCF /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 631EAED228F70E55004BAFCF /* Spawn.wav */; };
+		631EAED628F99A4F004BAFCF /* CollisionShield.wav in Resources */ = {isa = PBXBuildFile; fileRef = 631EAED528F99A4F004BAFCF /* CollisionShield.wav */; };
+		631EAEDA28F99CC6004BAFCF /* CollisionLarge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 631EAED928F99CC6004BAFCF /* CollisionLarge.wav */; };
+		631EAEDC28F9A504004BAFCF /* SleepSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631EAEDB28F9A504004BAFCF /* SleepSettings.storyboard */; };
+		631EAEDF28F9AD9F004BAFCF /* SleepSettingsPrevIewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EAEDE28F9AD9F004BAFCF /* SleepSettingsPrevIewViewController.swift */; };
+		638E51D428DA65C600B1F545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E51D328DA65C600B1F545 /* AppDelegate.swift */; };
+		638E51D628DA65C600B1F545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E51D528DA65C600B1F545 /* SceneDelegate.swift */; };
+		638E51DB28DA65C600B1F545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638E51D928DA65C600B1F545 /* Main.storyboard */; };
+		638E51DD28DA65C600B1F545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638E51DC28DA65C600B1F545 /* Assets.xcassets */; };
+		638E51E028DA65C600B1F545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638E51DE28DA65C600B1F545 /* LaunchScreen.storyboard */; };
+		638E51EE28DDEE0900B1F545 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E51ED28DDEE0900B1F545 /* AlarmViewController.swift */; };
+		6390EA8728E48A3100105EC3 /* AlarmSettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6390EA8628E48A3100105EC3 /* AlarmSettingsViewController.storyboard */; };
+		6390EA8A28E4900B00105EC3 /* AlarmSoundSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390EA8828E4900B00105EC3 /* AlarmSoundSettingTableViewCell.swift */; };
+		6390EA8B28E4900B00105EC3 /* AlarmSoundSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6390EA8928E4900B00105EC3 /* AlarmSoundSettingTableViewCell.xib */; };
+		6390EA8D28E492E100105EC3 /* AlarmSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390EA8C28E492E100105EC3 /* AlarmSettingsViewController.swift */; };
+		63AA63CC28DDFBFB005AE505 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA63CB28DDFBFB005AE505 /* Alarm.swift */; };
+		63AF825528E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF825328E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.swift */; };
+		63AF825628E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63AF825428E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.xib */; };
+		63AF825828E9CDB300C22FCA /* AlarmSoundSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF825728E9CDB300C22FCA /* AlarmSoundSettings.swift */; };
+		63B7041028E48491007B29FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7040F28E48491007B29FC /* Constants.swift */; };
+		63C4467E28F0687700D2A481 /* AlarmNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C4467D28F0687700D2A481 /* AlarmNameViewController.swift */; };
+		63C4468028F06FD800D2A481 /* RepeatAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C4467F28F06FD800D2A481 /* RepeatAlarmViewController.swift */; };
+		63C4468328F0735C00D2A481 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C4468228F0735C00D2A481 /* Week.swift */; };
+		63E2E02128DF40130044BBBD /* AlarmSleepSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E01F28DF40130044BBBD /* AlarmSleepSettingsTableViewCell.swift */; };
+		63E2E02228DF40130044BBBD /* AlarmSleepSettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E02028DF40130044BBBD /* AlarmSleepSettingsTableViewCell.xib */; };
+		63E2E02528DF50880044BBBD /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E02328DF50880044BBBD /* AlarmTableViewCell.swift */; };
+		63E2E02628DF50880044BBBD /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E02428DF50880044BBBD /* AlarmTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631EAECD28F459D9004BAFCF /* SoundSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSettingsViewController.swift; sourceTree = "<group>"; };
+		631EAED028F709B5004BAFCF /* ShieldA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShieldA.wav; sourceTree = "<group>"; };
+		631EAED228F70E55004BAFCF /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
+		631EAED528F99A4F004BAFCF /* CollisionShield.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CollisionShield.wav; sourceTree = "<group>"; };
+		631EAED928F99CC6004BAFCF /* CollisionLarge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CollisionLarge.wav; sourceTree = "<group>"; };
+		631EAEDB28F9A504004BAFCF /* SleepSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SleepSettings.storyboard; sourceTree = "<group>"; };
+		631EAEDE28F9AD9F004BAFCF /* SleepSettingsPrevIewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSettingsPrevIewViewController.swift; sourceTree = "<group>"; };
+		638E51D028DA65C600B1F545 /* IClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		638E51D328DA65C600B1F545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		638E51D528DA65C600B1F545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		638E51DA28DA65C600B1F545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		638E51DC28DA65C600B1F545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		638E51DF28DA65C600B1F545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		638E51E128DA65C600B1F545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638E51ED28DDEE0900B1F545 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		6390EA8628E48A3100105EC3 /* AlarmSettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarmSettingsViewController.storyboard; sourceTree = "<group>"; };
+		6390EA8828E4900B00105EC3 /* AlarmSoundSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundSettingTableViewCell.swift; sourceTree = "<group>"; };
+		6390EA8928E4900B00105EC3 /* AlarmSoundSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmSoundSettingTableViewCell.xib; sourceTree = "<group>"; };
+		6390EA8C28E492E100105EC3 /* AlarmSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingsViewController.swift; sourceTree = "<group>"; };
+		63AA63CB28DDFBFB005AE505 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		63AF825328E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlarmSoundSettingSwitcherTableViewCell.swift; path = ../AlarmSoundSettingSwitcherTableViewCell.swift; sourceTree = "<group>"; };
+		63AF825428E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmSoundSettingSwitcherTableViewCell.xib; sourceTree = "<group>"; };
+		63AF825728E9CDB300C22FCA /* AlarmSoundSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundSettings.swift; sourceTree = "<group>"; };
+		63B7040F28E48491007B29FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63C4467D28F0687700D2A481 /* AlarmNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmNameViewController.swift; sourceTree = "<group>"; };
+		63C4467F28F06FD800D2A481 /* RepeatAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatAlarmViewController.swift; sourceTree = "<group>"; };
+		63C4468228F0735C00D2A481 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		63E2E01F28DF40130044BBBD /* AlarmSleepSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSleepSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		63E2E02028DF40130044BBBD /* AlarmSleepSettingsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmSleepSettingsTableViewCell.xib; sourceTree = "<group>"; };
+		63E2E02328DF50880044BBBD /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		63E2E02428DF50880044BBBD /* AlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638E51CD28DA65C600B1F545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631EAECF28F70986004BAFCF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				631EAED028F709B5004BAFCF /* ShieldA.wav */,
+				631EAED228F70E55004BAFCF /* Spawn.wav */,
+				631EAED528F99A4F004BAFCF /* CollisionShield.wav */,
+				631EAED928F99CC6004BAFCF /* CollisionLarge.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		631EAEDD28F9AD53004BAFCF /* Sleep Settings */ = {
+			isa = PBXGroup;
+			children = (
+				631EAEDE28F9AD9F004BAFCF /* SleepSettingsPrevIewViewController.swift */,
+			);
+			path = "Sleep Settings";
+			sourceTree = "<group>";
+		};
+		638E51C728DA65C600B1F545 = {
+			isa = PBXGroup;
+			children = (
+				638E51D228DA65C600B1F545 /* IClock */,
+				638E51D128DA65C600B1F545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		638E51D128DA65C600B1F545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638E51D028DA65C600B1F545 /* IClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638E51D228DA65C600B1F545 /* IClock */ = {
+			isa = PBXGroup;
+			children = (
+				631EAECF28F70986004BAFCF /* Sounds */,
+				638E51E928DA664800B1F545 /* App */,
+				63AA63C828DDF5BC005AE505 /* Cells */,
+				638E51EA28DA670F00B1F545 /* Controllers */,
+				638E51E128DA65C600B1F545 /* Info.plist */,
+				638E51EB28DA673B00B1F545 /* Models */,
+				638E51E828DA661500B1F545 /* Storyboards & Xibs */,
+				638E51E728DA65DA00B1F545 /* SupportingFiles */,
+				638E51EC28DA675000B1F545 /* Views */,
+				63B7040F28E48491007B29FC /* Constants.swift */,
+			);
+			path = IClock;
+			sourceTree = "<group>";
+		};
+		638E51E728DA65DA00B1F545 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				638E51DE28DA65C600B1F545 /* LaunchScreen.storyboard */,
+				638E51DC28DA65C600B1F545 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		638E51E828DA661500B1F545 /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E01E28DF3F820044BBBD /* Xibs */,
+				63E2E01D28DF3F5E0044BBBD /* Storyboards */,
+			);
+			path = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		638E51E928DA664800B1F545 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				638E51D328DA65C600B1F545 /* AppDelegate.swift */,
+				638E51D528DA65C600B1F545 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		638E51EA28DA670F00B1F545 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				631EAEDD28F9AD53004BAFCF /* Sleep Settings */,
+				6390EA8E28E49B3500105EC3 /* Alarm */,
+				6390EA8F28E49B4B00105EC3 /* Alarm settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		638E51EB28DA673B00B1F545 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63AA63CB28DDFBFB005AE505 /* Alarm.swift */,
+				63AF825728E9CDB300C22FCA /* AlarmSoundSettings.swift */,
+				63C4468228F0735C00D2A481 /* Week.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		638E51EC28DA675000B1F545 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6390EA8E28E49B3500105EC3 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				638E51ED28DDEE0900B1F545 /* AlarmViewController.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		6390EA8F28E49B4B00105EC3 /* Alarm settings */ = {
+			isa = PBXGroup;
+			children = (
+				6390EA8C28E492E100105EC3 /* AlarmSettingsViewController.swift */,
+				63C4467D28F0687700D2A481 /* AlarmNameViewController.swift */,
+				63C4467F28F06FD800D2A481 /* RepeatAlarmViewController.swift */,
+				631EAECD28F459D9004BAFCF /* SoundSettingsViewController.swift */,
+			);
+			path = "Alarm settings";
+			sourceTree = "<group>";
+		};
+		63AA63C828DDF5BC005AE505 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E01F28DF40130044BBBD /* AlarmSleepSettingsTableViewCell.swift */,
+				63E2E02328DF50880044BBBD /* AlarmTableViewCell.swift */,
+				6390EA8828E4900B00105EC3 /* AlarmSoundSettingTableViewCell.swift */,
+				63AF825328E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63E2E01D28DF3F5E0044BBBD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				638E51D928DA65C600B1F545 /* Main.storyboard */,
+				6390EA8628E48A3100105EC3 /* AlarmSettingsViewController.storyboard */,
+				631EAEDB28F9A504004BAFCF /* SleepSettings.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63E2E01E28DF3F820044BBBD /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E02028DF40130044BBBD /* AlarmSleepSettingsTableViewCell.xib */,
+				63E2E02428DF50880044BBBD /* AlarmTableViewCell.xib */,
+				6390EA8928E4900B00105EC3 /* AlarmSoundSettingTableViewCell.xib */,
+				63AF825428E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638E51CF28DA65C600B1F545 /* IClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638E51E428DA65C600B1F545 /* Build configuration list for PBXNativeTarget "IClock" */;
+			buildPhases = (
+				638E51CC28DA65C600B1F545 /* Sources */,
+				638E51CD28DA65C600B1F545 /* Frameworks */,
+				638E51CE28DA65C600B1F545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IClock;
+			productName = IClock;
+			productReference = 638E51D028DA65C600B1F545 /* IClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638E51C828DA65C600B1F545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					638E51CF28DA65C600B1F545 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 638E51CB28DA65C600B1F545 /* Build configuration list for PBXProject "IClock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638E51C728DA65C600B1F545;
+			productRefGroup = 638E51D128DA65C600B1F545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638E51CF28DA65C600B1F545 /* IClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638E51CE28DA65C600B1F545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6390EA8B28E4900B00105EC3 /* AlarmSoundSettingTableViewCell.xib in Resources */,
+				631EAEDA28F99CC6004BAFCF /* CollisionLarge.wav in Resources */,
+				63E2E02628DF50880044BBBD /* AlarmTableViewCell.xib in Resources */,
+				631EAED328F70E55004BAFCF /* Spawn.wav in Resources */,
+				631EAED628F99A4F004BAFCF /* CollisionShield.wav in Resources */,
+				631EAED128F709B5004BAFCF /* ShieldA.wav in Resources */,
+				63E2E02228DF40130044BBBD /* AlarmSleepSettingsTableViewCell.xib in Resources */,
+				63AF825628E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.xib in Resources */,
+				638E51E028DA65C600B1F545 /* LaunchScreen.storyboard in Resources */,
+				631EAEDC28F9A504004BAFCF /* SleepSettings.storyboard in Resources */,
+				638E51DD28DA65C600B1F545 /* Assets.xcassets in Resources */,
+				6390EA8728E48A3100105EC3 /* AlarmSettingsViewController.storyboard in Resources */,
+				638E51DB28DA65C600B1F545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638E51CC28DA65C600B1F545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C4468028F06FD800D2A481 /* RepeatAlarmViewController.swift in Sources */,
+				638E51EE28DDEE0900B1F545 /* AlarmViewController.swift in Sources */,
+				63AF825528E64B2900C22FCA /* AlarmSoundSettingSwitcherTableViewCell.swift in Sources */,
+				63E2E02528DF50880044BBBD /* AlarmTableViewCell.swift in Sources */,
+				638E51D428DA65C600B1F545 /* AppDelegate.swift in Sources */,
+				63AF825828E9CDB300C22FCA /* AlarmSoundSettings.swift in Sources */,
+				63C4467E28F0687700D2A481 /* AlarmNameViewController.swift in Sources */,
+				638E51D628DA65C600B1F545 /* SceneDelegate.swift in Sources */,
+				631EAECE28F459D9004BAFCF /* SoundSettingsViewController.swift in Sources */,
+				6390EA8D28E492E100105EC3 /* AlarmSettingsViewController.swift in Sources */,
+				63C4468328F0735C00D2A481 /* Week.swift in Sources */,
+				63E2E02128DF40130044BBBD /* AlarmSleepSettingsTableViewCell.swift in Sources */,
+				63AA63CC28DDFBFB005AE505 /* Alarm.swift in Sources */,
+				6390EA8A28E4900B00105EC3 /* AlarmSoundSettingTableViewCell.swift in Sources */,
+				631EAEDF28F9AD9F004BAFCF /* SleepSettingsPrevIewViewController.swift in Sources */,
+				63B7041028E48491007B29FC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		638E51D928DA65C600B1F545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638E51DA28DA65C600B1F545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		638E51DE28DA65C600B1F545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638E51DF28DA65C600B1F545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		638E51E228DA65C600B1F545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		638E51E328DA65C600B1F545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638E51E528DA65C600B1F545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CW43T79V3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikaStar.IClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		638E51E628DA65C600B1F545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CW43T79V3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vikaStar.IClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638E51CB28DA65C600B1F545 /* Build configuration list for PBXProject "IClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638E51E228DA65C600B1F545 /* Debug */,
+				638E51E328DA65C600B1F545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638E51E428DA65C600B1F545 /* Build configuration list for PBXNativeTarget "IClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638E51E528DA65C600B1F545 /* Debug */,
+				638E51E628DA65C600B1F545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638E51C828DA65C600B1F545 /* Project object */;
+}
