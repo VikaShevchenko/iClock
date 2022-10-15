@@ -8,8 +8,14 @@
 import Foundation
 
 
-struct Alarm {
+class Alarm {
     var time: Double
     var signalName: String
-    var isOn: Bool 
+    var isOn: Bool
+    
+    init(time: Double, signalName: String, isOn: Bool) {
+        self.time = time
+        self.signalName = signalName
+        self.isOn = isOn
+    }
 }
