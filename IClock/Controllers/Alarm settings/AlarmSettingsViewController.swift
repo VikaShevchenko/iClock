@@ -10,7 +10,7 @@ import UIKit
 
 protocol AlarmSettingsDelegate {
     func tapCancel()
-    func tapSave(alarmTime: String)
+    func tapSave(alarmTime: String, type: AlarmSettingsType)
 }
 
 
@@ -47,7 +47,7 @@ class AlarmSettingsViewController: UIViewController {
         delegate?.tapCancel()
     }
     @IBAction func tapSave(_ sender: UIButton) {
-        delegate?.tapSave(alarmTime: textField.text!)
+        delegate?.tapSave(alarmTime: textField.text!, type: settingsType)
     }
     
     @IBAction func pressDeleteButton(_ sender: UIButton) { }
