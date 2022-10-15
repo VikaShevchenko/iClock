@@ -147,14 +147,17 @@ extension AlarmViewController: UITableViewDelegate {
 } 
 
 extension AlarmViewController: AlarmSettingsDelegate {
-    func tapSave(alarmTime: String) {
+    func tapSave(alarmTime: String,type: AlarmSettingsType) {
         dismiss(animated: true)
-
+        guard let time = Double(alarmTime) else { return } // перевіряєм чи юзер букви не уввів.
         
-        guard let time = Double(alarmTime) else { return }
-        
-        let alarm = Alarm(time: time, signalName: "Max song", isOn: true)
-        alarmsSection[1].append(alarm)
+        switch type {
+        case .add:
+            let alarm = Alarm(time: time, signalName: "Max song", isOn: true)
+            alarmsSection[1].append(alarm)
+        case .edit:
+            alarmsSection[1][0].time = time
+        }
         
         tableView.reloadData()
     }
